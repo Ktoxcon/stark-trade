@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@fuse/*": ["./src/*"]
+    },
+    "lib": ["DOM", "DOM.Iterable", "ES2022"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src", "globals.d.ts"]
+}
