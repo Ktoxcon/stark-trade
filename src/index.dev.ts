@@ -1,4 +1,5 @@
 import "dotenv/config";
-import { startDev } from "./app/start.dev";
 
-startDev();
+import { start } from "@stark-trade/app/start";
+
+start();
