@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "paths": {
-      "@fuse/*": ["./src/*"]
+      "@stark-trade/*": ["./src/*"]
     },
     "lib": ["DOM", "DOM.Iterable", "ES2022"]
   },

@@ -1,7 +1,7 @@
 {
-  "name": "@fuse/backend",
+  "name": "@stark-trade/backend",
   "version": "0.1.0",
-  "description": "",
+  "description": "Fuse Take Home Challenge",
   "author": "Ktoxcon",
   "main": "dist/index.js",
   "scripts": {
