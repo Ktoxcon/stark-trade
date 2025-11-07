@@ -3,8 +3,8 @@ import { AuthMiddleware } from "@stark-trade/middleware/auth.middleware";
 import { UrlEncodedMiddleware } from "@stark-trade/middleware/url-encoded.middleware";
 import { Router } from "express";
 
-export const PortfolioRoutes = Router();
+export const PortfolioRouter = Router();
 
-PortfolioRoutes.use(UrlEncodedMiddleware);
+PortfolioRouter.use(UrlEncodedMiddleware);
 
-PortfolioRoutes.get("/:id", AuthMiddleware, PortfolioController.getPortfolio);
+PortfolioRouter.get("/:id", AuthMiddleware, PortfolioController.getPortfolio);

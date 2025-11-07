@@ -3,8 +3,8 @@ import { AuthMiddleware } from "@stark-trade/middleware/auth.middleware";
 import { UrlEncodedMiddleware } from "@stark-trade/middleware/url-encoded.middleware";
 import { Router } from "express";
 
-export const TransactionsRoutes = Router();
+export const TransactionsRouter = Router();
 
-TransactionsRoutes.use(UrlEncodedMiddleware);
+TransactionsRouter.use(UrlEncodedMiddleware);
 
-TransactionsRoutes.post("/", AuthMiddleware, TransactionsController.buy);
+TransactionsRouter.post("/", AuthMiddleware, TransactionsController.buy);
