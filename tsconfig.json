@@ -16,5 +16,5 @@
   },
   "exclude": ["node_modules"],
   "include": ["src"],
-  "files": ["env.d.ts"]
+  "files": ["env.d.ts", "drizzle.config.ts"]
 }
